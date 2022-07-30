@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My Photos</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Basic Page Needs
+================================================== -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<!-- Scripts -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>$('#myModal').modal()</script>
+<script src="js/formvalidation.js"></script>
+<script src="js/html5placeholder.jquery.js"></script>
+<script src="js/jquery.tweet.js"></script>
+</head>
+<body>
+<!-- Top Green Bar -->
+<div class="topline">
+</div>
+<!-- Top Green Bar Ends-->
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</a>
+			<div class="nav-collapse collapse">
+				<!-- Menu Links
+			================================================== -->
+				<!-- Left menu links -->
+				<ul class="nav leftmenu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutvader.html">About me </a></li>
+				</ul>
+				<!-- Right menu links -->
+				<ul class="nav rightmenu">
+					<li><a href="porto.html">My Photos</a></li>
+					<li class="lastmenu"><a href="contactvader.html" class="lastmenu">Contact</a></li>
+				</ul>
+				<!-- End Menu Links
+			================================================== -->
+				<!-- Pop up form (activated on "hire me" click)-->
+				<div id="myModal" class="modal hide fade hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+						<h3 id="myModalLabel">Send me a note</h3>
+					</div>
+					<div class="modal-body">
+						<div class="done">
+							<div class="alert alert-success">
+								<button type="button" class="close" data-dismiss="alert">x</button>
+								<strong>Message sent successfully!</strong><br/>
+							</div>
+						</div>
+						<div class="form">
+							<form method="post" action="process.php" id="contactform">
+								<table>
+								<tbody>
+								<tr class="element">
+									<td class="noborder">
+									</td>
+									<td class="noborder">
+										<input type="text" name="name" class="text input-xlarge" placeholder="Name">
+									</td>
+								</tr>
+								<tr class="element">
+									<td class="noborder">
+									</td>
+									<td class="noborder">
+										<input type="text" name="email" class="text input-xlarge" placeholder="Empire-mail address">
+									</td>
+								</tr>
+								<tr class="element texttop">
+									<td class="noborder">
+									</td>
+									<td class="noborder">
+										<textarea name="comment" class="text textarea input-xlarge contactarea" placeholder="Do not write Bullshit in here otherwise I WILL CHOKE YOU TO DEATH!!!"></textarea>
+									</td>
+								</tr>
+								<tr class="element">
+									<td class="noborder">
+										 &nbsp;
+									</td>
+									<td class="noborder">
+										<input type="submit" id="submit" class="btn" value="Submit">
+										<div class="loading">
+										</div>
+									</td>
+								</tr>
+								</tbody>
+								</table>
+							</form>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- End pop up content modal (activated on "hire me" click)-->
+			</div>
+			<!-- Menu Ends
+			================================================== -->
+			<!-- Logo-->
+			<a class="brand logo" href="#">Darth<br/> Vader</a>
+			<!-- End Logo-->
+			<!-- Hire me badge (remove if you don't need one)-->
+			<div class="hiremebadge">
+				<div class="hiremetext">
+					<a data-toggle="modal" href="#myModal">Message</a>
+				</div>
+			</div>
+			<!-- End Hire me badge-->
+		</div>
+	</div>
+</div>
+<!-- Container starts
+================================================== -->
+<div class="container">
+	<!-- Main hero unit for a primary marketing message or call to action -->
+	<h1 class="title">My Photos</h1>
+	<div class="titlelinesimple">
+	</div>
+	<!-- Portofolio
+	================================================== -->
+	<div class="row center">
+		<div class="span16">
+			<div class="boxgrid slideright">
+				<img class="cover" src="pho1/bd 1.jpg" alt=""/>
+				<h3>Boba and Vader</h3>
+				<p>
+					Originally introduced in the Star Wars Holiday Special, <br>
+					the bounty hunter Boba Fett made his live-action debut in Star Wars: <br>
+					The Empire Strikes Back and immediately proved one of the series' <br>
+					most interesting characters. <br>
+					In that film, Boba worked with Anakin Skywalker/Darth Vader, <br>
+					and the two even seemingly respected each other, <br>
+					even if they didn't necessarily like each other. <br>
+					now, we're going to break down just what you need to know <br>
+					about Darth Vader and Boba Fett working together. <br>
+
+Throughout the original Star Wars trilogy, <br>
+ Darth Vader proved himself willing to murder or hurt anyone <br>
+  who dared to disagree with him. <br>
+This wasn't the case with Boba, though, who is the quintessential <br>
+lone wolf bounty hunter character. <br>
+ Their respect for each other may tie into one of Anakin Skywalker's <br>
+  most trusted friends: Captain Rex, <br>
+  who was a major character in Star Wars: The Clone Wars. <br>
+  As Boba and Rex were also clones of Jango Fett, <br>
+  this might account for why Darth Vader treated the <br>
+  bounty hunter with more respect.<br>
+					<a href="#" target="_BLANK"></a>
+				</p>
+			</div>
+			<div class="boxgrid slideright">
+				<img class="cover" src="images\vader4.jpg" alt=""/>
+				<h3>Dart Vader Mustafar</h3>
+<p>
+	The Duel on Mustafar was a confrontation where Anakin Skywalker, <br>
+	now the recently apprenticed Sith Lord, Darth Vader, fought his <br>
+	former Jedi Master and best friend, Obi-Wan Kenobi, on the planet<br>
+	Mustafar in the Outer Rim. After learning of Skywalker's downfall <br>
+	 with Grand Master Yoda at the Jedi Temple, Kenobi arrived on Mustafar, <br>
+	 where he attempted to reason with the fallen Jedi, not believing the <br>
+	 Sith Master known as Darth Sidious, revealed to be Emperor Palpatine, <br>
+	 had taken control of Skywalker's mind. However, Vader no longer cared for<br>
+	  their friendship, and quickly claimed that Kenobi was his enemy; the pair <br>
+	  then ignited their lightsabers and locked blades, fighting through the murder <br>
+	  scene in the Mustafarian Mining Complex, where Vader had recently slaughtered <br>
+	  the members of the Separatist Council, the legislative branch of the Confederacy <br>
+	  of Independent Systems.
+					<br/><a href="#" target="_BLANK"></a>
+				</p>
+			</div>
+			<div class="boxgrid slideright">
+				<img class="cover" src="images\vader6.jpg" alt=""/>
+				<h3>Vader on Hoth</h3>
+<p>
+	he Battle of Hoth, also known as the attack on Hoth, <br>
+	the assault on Echo Base, or the attack on Echo Base, was a major battle fought <br>
+	in 3 ABY and was considered a major victory for the Galactic Empire and the single <br>
+	worst battlefield defeat suffered by the Rebel Alliance during the Galactic Civil War. <br>
+	The battle was an Imperial invasion led by Darth Vader, aimed at destroying the Rebel Alliance's <br>
+	Echo Base hidden on the remote ice world Hoth and capturing Luke Skywalker. The base's <br>
+	location was discovered when a Viper probe droid, deployed by Darth Vader's <br>
+	Death Squadron randomly landed on Hoth, convincing the Rebels <br>
+	to begin an evacuation of Hoth.</p>
+				<br/>
+	<p>
+		The Imperial attack force consisted of primarily AT-AT walkers, <br>
+		commanded by General Maximilian Veers.<br>
+		 His army was tasked with destroying Echo Base's main power<br>
+		  generator to allow orbital bombardment of <br>
+		 the planet and for Darth Vader to land on the planet.<br>
+		  Spearheading the defense of the generator was <br>
+		 Rogue Squadron, manning snowspeeders, commanded by Luke Skywalker,<br>
+		  renowned for being the pilot who <br>
+		 destroyed the first Death Star. The snowspeeders however did not<br>
+		  have the necessary firepower to bring <br>
+		 down the walkers, so Skywalker suggested an alternative tactic <br>
+		 to trip up the walkers with the tow cables <br>
+		 issued to every snowspeeder.
+				</p>
+			</div>
+			<div class="boxgrid slideright">
+				<img class="cover" src="images\vader7.jpg" alt=""/>
+				<h3> Lord VADER</h3>
+<p>
+	Darth Vader is a fictional character in the Star Wars franchise. <br>
+	The character is the primary antagonist in the original trilogy and, <br>
+	 as Anakin Skywalker, is a primary protagonist in the prequel trilogy.<br>
+	  Star Wars creator George Lucas has collectively referred to the first <br>
+	  six episodic films of the franchise as "the tragedy of Darth Vader".<br><br><br>
+
+Originally a slave on Tatooine, Anakin is a Jedi prophesied to bring <br>
+balance to the Force. He is lured to the dark side of the Force by Palpatine <br>
+and becomes a Sith lord, assuming the title Darth Vader. After a lightsaber <br>
+battle with his former mentor Obi-Wan Kenobi, in which he is severely injured, <br>
+Vader is transformed into a cyborg. He then serves the Galactic Empire as its <br>
+chief enforcer. Vader ultimately redeems himself by saving his son, Luke Skywalker, <br>
+and killing Palpatine, sacrificing his own life in the process.<br>
+ He is also the secret husband of Padmé Amidala, biological father of Princess Leia, <br>
+ and maternal grandfather of Kylo Ren.
+
+					<br/><a href="#" target="_BLANK"></a>
+				</p>
+			</div>
+			<div class="boxgrid slideright">
+				<img class="cover" src="images\vader1.jpg" alt=""/>
+				<h3>Lord VADER comes again</h3>
+<p>
+	Upon transforming into Darth Vader, he became ruthless, showing no apparent mercy <br>
+	to his enemies, occasionally killing his own officers for their failures, and remorselessly <br>
+	 imparting torture to accomplish his goals. Having lost all that he cared about by his own hand, <br>
+	 the heartbroken and self-loathing Sith only showed a fierce dedication to the Emperor,<br>
+	  whose orders he would execute with steadfast devotion, no matter the task.<br><br><br>
+
+Claiming not to feel regret, and yet haunted by his past, and the screams of his wife,<br>
+ he was determined to never talk about his old life, and detested all that reminded him of <br>
+ his past self (whom he deemed to be weak). He dared not remember such period of life, <br>
+ which he hated; indeed, through the use of the dark side, he kept his memories as Anakin Skywalker buried<br>
+					<br/><a href="#" target="_BLANK"></a>
+				</p>
+			</div>
+			<div class="boxgrid slideright">
+				<img class="cover" src="images\vader2.jpg" alt=""/>
+				<h3>Lord VADER's Assault on Tantive IV</h3>
+<p>
+Nineteen years after the formation of the Galactic Empire, the galaxy is in a state of <br>
+civil war. The Rebel Alliance has won their first major victory by stealing plans to the <br>
+Galactic Empire's secret weapon, the Death Star. Hoping that the stolen plans can save her <br>
+people and restore freedom to the galaxy, Princess Leia Organa, who is in custody of <br>
+the stolen plans attempts to race home aboard the Tantive IV. However, her ship is <br>
+intercepted by the Imperial I-class Star Destroyer Devastator over the desert planet of Tatooine.<br>
+Princess Leia is captured by the Galactic Empire. <br><br><br>
+
+Imperial stormtroopers manage to board the ship, <br>
+and after defeating the small number of guards defending the ship,<br>
+ the Sith Lord Darth Vader arrives to assess the damage. Vader is outraged and questions<br>
+  Captain Antilles, whom he eventually strangles and kills. Hiding on the ship, <br>
+  Princess Leia is spotted by stormtroopers. They shoot her with a stun blast and<br>
+   bring her before Vader. However, before being detained, Leia was able to record a holographic <br>
+   message with the help of R2-D2, and assigned the droid the responsibility of taking <br>
+   the message to a Jedi-in-hiding on Tatooine. Vader orders a message be sent <br>
+   to the Imperial Senate, informing them that the ship was destroyed, with everyone on<br>
+    board killed. R2-D2 and C-3PO use an escape pod in order to escape the ship and <br>
+	reach the planet of Tatooine below<br>
+<br/><a href="#" target="_BLANK"></a>
+				</p>
+			</div>
+			<div class="boxgrid slideright">
+				<img class="cover" src="images\vader9.jpg" alt=""/>
+				<h3>VADER goes Flying</h3>
+<p>
+	Obi-Wan, on the other hand, was destined to meet with Darth Vader. <br>
+	 After a short duel with his former Padawan, Obi-Wan sacrifices<br>
+	  himself, thus becoming one with the Force and allowing Luke and<br>
+	   the others to escape. Horrified and angered having witnessed <br>
+	   Obi-Wan's demise at the hands of Vader, Luke takes his final<br>
+	    blasts at the stormtroopers and dashes onto the Millennium Falcon.<br>
+
+After fighting a squadron of TIE fighters, the Millennium <br>
+Falcon meets the Rebel Alliance on Yavin 4, and the <br>
+information in R2-D2 is turned over. General Dodonna plans<br>
+ the attack on the Death Star, an attack so audacious <br>
+ as to receive an unenthusiastic reaction from the pilots.<br>
+  To add to Luke's dismay, Han leaves after receiving his reward.<br><br>
+
+
+Rebel fighters approach the Death Star.<br>
+
+The Rebel strike force begins its attack on the Death Star, <br>
+as the space station approaches the Rebel base on Yavin 4. <br>
+A group of starfighters assaults a trench on the Death Star's <br>
+surface to hit the station's vulnerable spot before it can destroy<br>
+ the Alliance's base. During this, most of the Rebel craft, <br>
+ including Luke's friend Biggs Darklighter, are picked off by Imperial <br>
+ fighters led by Darth Vader. Just as Vader opens fire on Luke from <br>
+ his personal TIE Advanced fighter, Han returns in the Millennium Falcon<br>
+  and attacks the Imperials, resulting in Vader's ship getting <br>
+  knocked out of the trench. Luke, aided by the voice of Kenobi <br>
+  and guided by the Force, accurately fires two proton torpedoes <br>
+  into a small exhaust port leading to the Death Star's reactor, <br>
+  and the battle station explodes.
+
+The few remaining ships (those of Wedge Antilles, Luke, Han, and a Y-wing Pilot) <br>
+return to Yavin 4 and a victory celebration commences, complete with medals for <br>
+the heroes, Han Solo and Luke Skywalker, presented by Princess Leia.<br/><a href="#" target="_BLANK"></a>
+				</p>
+			</div>
+			<div class="boxgrid slideright">
+				<img class="cover" src="images\vader12.jpg" alt=""/>
+				<h3>VADER on Death Star</h3>
+<p>
+	The original Death Star's completed form appears in the original Star Wars film, <br>
+	 known as the DS-1 Orbital Battle Station, or Project Stardust in Rogue One; <br>
+	 before learning the true name of the weapon, the Rebel Alliance referred to <br>
+	 it as the "Planet Killer". Commanded by Governor Tarkin, it is the Galactic<br>
+	  Empire's "ultimate weapon", a huge spherical battle station 120 kilometers <br>
+	  in diameter capable of destroying a planet with one shot of its superlaser.<br>
+	   The film opens with Princess Leia transporting the station's schematics <br>
+	   to the Rebel Alliance to aid them in destroying the Death Star.<br>
+To mark the Death Star being fully operational, Tarkin orders the<br>
+Death Star to destroy Leia's home world of Alderaan in an attempt <br>
+to press her into giving him the location of the secret Rebel headquarters<br>
+she gives them the location of Dantooine which housed a now-deserted<br>
+Rebel base, but Tarkin has Alderaan destroyed anyway as a demonstration <br>
+of the Empire's resolve. Later, Luke Skywalker, Han Solo, Chewbacca, <br>
+Obi-Wan Kenobi, C-3PO, and R2-D2 are pulled aboard the station by a <br><br>
+tractor beam, where they discover and manage to rescue Princess Leia.<br>
+ As they make their escape, Obi-Wan sacrifices himself whilst duelling <br>
+ Darth Vader, enabling the others to flee the station. Later, Luke returns <br>
+ as part of a fighter force to attack its only weak point: a ray-shielded <br>
+ particle exhaust vent leading straight from the surface directly into its <br>
+ reactor core. Luke is able to successfully launch his X-wing fighter's <br>
+ torpedoes into the vent, impacting the core and triggering a catastrophic <br>
+ explosion, which destroys the station before it can use its superlaser <br>
+ weapon to annihilate the Rebel base on Yavin 4.
+					<br/><a href="#" target="_BLANK"></a>
+				</p>
+			</div>
+			<div class="boxgrid slideright">
+				<img class="cover" src="images\vader11.jpg" alt=""/>
+				<h3>Vader's Token</h3>
+				<p>
+				Hey Yo Slaves!!!!!! <br>
+				Make sure to get my TOKEN from imperios.sith <br>
+				Otherwise I WILL CHAKE YOU TO MUSTAFAR!!!!!<br/><a href="#" target="_BLANK"></a>
+				</p>
+			</div>
+			<div class="boxgrid slideright">
+				<img class="cover" src="images\vader13.jpg" alt=""/>
+				<h3>Vader visits Death Star</h3>
+<p>
+	Sometime after the events of The Empire Strikes Back, Darth Vader <br>
+	 lands in the docking bay of the incomplete second Death Star, <br>
+	 which the Empire designed to be more powerful than the first. <br>
+	 He is greeted by Moff Tiaan Jerjerrod, but demands construction<br>
+	  be put back on schedule in order to complete the Death Star on time.<br>
+	   Jerjerrod argues that they need more men, but quickly agrees to <br>
+	   double their efforts when he learns that the Emperor is coming.<br>
+					<br/>
+On the Death Star, Emperor Palpatine arrives and praises<br>
+ Lord Vader on his efforts in the construction of the Death Star.<br>
+  He also senses that Vader craves the continuation of his <br>
+  search for his son, Luke. The old Sith Lord assures his apprentice <br>
+  that Luke will seek Vader out, that only together would the Sith <br>
+  be able to turn Luke to the dark side of the Force, and that <br>
+  everything was proceeding as Palpatine has foreseen.<a href="#" target="_BLANK"></a>
+				</p>
+			</div>
+			<div class="boxgrid slideright">
+				<img class="cover" src="images\vader14.jpg" alt=""/>
+				<h3>Battle of Endor</h3>
+<p>
+	The Rebels enter the heart of the shield generator, only to be <br>
+	taken prisoner by the Imperial forces. The fleet emerges from <br>
+	hyperspace for the battle, but discovers the shield is still up.<br>
+	 As they contemplate their options, the Imperial fleet, which <br>
+	 they were led to believe was away, appears and an intense <br>
+	 battle begins. Han and the strike team are led out of the bunker <br>
+	 by the stormtroopers, but the droids and the Ewoks have already <br>
+	 orchestrated the attack on the Empire, and another intense<br>
+	  battle commences with the Rebels and Ewoks on one side, <br>
+	  the Empire on another. The Emperor shows Luke the full <br>
+	  power of the Death Star as the station, now fully operational, <br>
+	  destroys one of the Alliance's ships. Meanwhile, on Endor, <br>
+	  the battle continues, with casualties <br>
+	  (Rebel, stormtrooper, and Ewok) already mounting. Eventually, <br>
+	  Han, Leia, and Chewbacca gain access to the bunker.<br>
+					<br/><a href="#" target="_BLANK"></a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- Footer 
+================================================== -->
+<div class="footerli">
+</div>
+<div class="tweetarea">
+    <div class="tweettext">
+        <div class="row">
+            <div class="span-one-third">
+                <i>Hope you liked my page , now it's time to send me a letter otherwise I WILL CHOKE YOU TO MUSTAFAR!!!  </i>
+            </div>
+            <div class="span-one-third">
+                <div class="centermargin">
+                    Thank you <a href="https://devagnihotri.github.io/Hoth">Dev Agnihotri</a> for making this for me
+                   
+                </div>
+            </div>
+            <div class="span-one-third center">
+                Contact me directly by<br/>Sending me a Letter<br/>
+                <span class="small"><a href="mailto:devdevagnihotri8@gmail.com">Send Letter</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer center">
+     &copy; Copyright <a href="https://devagnihotri.github.io/Hoth">Dev Agnihotri</a> 0BBY.<br/>
+     Long Live LORD VADER.
+</div>
+</div>
+<!-- Ended Container-->
+<div class="footerend">
+</div>
+<!-- Portofolio Script 
+================================================== -->
+<script type="text/javascript">
+			$(document).ready(function(){
+				//To switch directions up/down and left/right just place a "-" in front of the top/left attribute
+				//Vertical Sliding
+				$('.boxgrid.slidedown').hover(function(){
+					$(".cover", this).stop().animate({top:'-900px'},{queue:false,duration:300});
+				}, function() {
+					$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:300});
+				});
+				//Horizontal Sliding
+				$('.boxgrid.slideright').hover(function(){
+					$(".cover", this).stop().animate({left:'700px'},{queue:false,duration:300});
+				}, function() {
+					$(".cover", this).stop().animate({left:'0px'},{queue:false,duration:300});
+				});
+				//Diagnal Sliding
+				$('.boxgrid.thecombo').hover(function(){
+					$(".cover", this).stop().animate({top:'960px', left:'700px'},{queue:false,duration:300});
+				}, function() {
+					$(".cover", this).stop().animate({top:'0px', left:'0px'},{queue:false,duration:300});
+				});
+				//Partial Sliding (Only show some of background)
+				$('.boxgrid.peek').hover(function(){
+					$(".cover", this).stop().animate({top:'900px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:160});
+				});
+				//Full Caption Sliding (Hidden to Visible)
+				$('.boxgrid.captionfull').hover(function(){
+					$(".cover", this).stop().animate({top:'160px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'260px'},{queue:false,duration:160});
+				});
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'160px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+</body>
+</html>

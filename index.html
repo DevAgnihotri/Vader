@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Darth Vader's Account</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Basic Page Needs
+================================================== -->
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<!-- Scripts -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>$('#myModal').modal()</script>
+<script src="js/formvalidation.js"></script>
+<script src="js/html5placeholder.jquery.js"></script>
+<script src="js/jquery.tweet.js"></script>
+</head>
+<body>
+<!-- Top Green Bar -->
+<div class="topline">
+</div>
+<!-- Top Green Bar Ends-->
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</a>
+			<div class="nav-collapse collapse">
+				<!-- Menu Links
+			================================================== -->
+				<!-- Left menu links -->
+				<ul class="nav leftmenu">
+					
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutvader.html">About me </a></li>
+				</ul>
+				<!-- Right menu links -->
+				<ul class="nav rightmenu">
+					<li><a href="porto.html">My Photos</a></li>
+					<li class="lastmenu"><a href="contactvader.html" class="lastmenu">Contact</a></li>
+				</ul>
+				<!-- End Menu Links
+			================================================== -->
+				<!-- Pop up form (activated on "hire me" click)-->
+				<div id="myModal" class="modal hide fade hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+						<h3 id="myModalLabel">Send me a note</h3>
+					</div>
+					<div class="modal-body">
+						<div class="done">
+							<div class="alert alert-success">
+								<button type="button" class="close" data-dismiss="alert">x</button>
+								<strong>Message sent successfully!</strong><br/>
+							</div>
+						</div>
+						<div class="form">
+							<form method="post" action="process.php" id="contactform">
+								<table>
+								<tbody>
+								<tr class="element">
+									<td class="noborder">
+									</td>
+									<td class="noborder">
+										<input type="text" name="name" class="text input-xlarge" placeholder="Name ">
+									</td>
+								</tr>
+								<tr class="element">
+									<td class="noborder">
+									</td>
+									<td class="noborder">
+										<input type="text" name="email" class="text input-xlarge" placeholder="Empiremail address">
+									</td>
+								</tr>
+								<tr class="element texttop">
+									<td class="noborder">
+									</td>
+									<td class="noborder">
+										<textarea name="comment" class="text textarea input-xlarge contactarea" placeholder="Do not mention any bullshit otherwise I WILL CHOKE YOU TO DEATH!!!!!"></textarea>
+									</td>
+								</tr>
+								<tr class="element">
+									<td class="noborder">
+										 &nbsp;
+									</td>
+									<td class="noborder">
+										<input type="submit" id="submit" class="btn" value="Submit">
+										<div class="loading">
+										</div>
+									</td>
+								</tr>
+								</tbody>
+								</table>
+							</form>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- End pop up content modal (activated on "hire me" click)-->
+			</div>
+			<!-- Menu Ends
+			================================================== -->
+			<!-- Logo-->
+			<a class="brand logo" href="#">Darth<br/> Vader</a>
+			<!-- End Logo-->
+			<!-- Hire me badge (remove if you don't need one)-->
+			<div class="hiremebadge">
+				<div class="hiremetext">
+					<a data-toggle="modal" href="#myModal">Message</a>
+				</div>
+			</div>
+			<!-- End Hire me badge-->
+		</div>
+	</div>
+</div>
+<!-- Container starts
+================================================== -->
+<div class="container">
+	<!-- Main hero unit for a primary marketing message or call to action -->
+	<div class="hero-unit">
+		<h1>Welcome to Darth Vader's Account!</h1>
+		<p>
+		Hey!! this is me Vader {also known as Darth Vader, Supreme Leader , Luke's best daddy , Palpatine best apprentice , Big Boss , Lord Vader , Anaikin Skywalker} 
+        Welcome to my account be sure to check my photos and make sure to send me a letter otherwise I WILL CHOKE YOU TO DEATH!!!
+
+
+		</p>
+	</div>
+	<!--Carousel
+	================================================== -->
+	<div class="row">
+		<div class="span16">
+			<div id="myCarousel" class="carousel slide">
+				<div class="carousel-inner imglist">
+					<!-- Remove imglist word if you don't want gray pictures-->
+					<!-- 1st item-->
+					<div class="item">
+						<img src="pho/darth vader 1.jpg" alt="">
+						<div class="carousel-caption">
+							<h4>Darth Vader </h4>
+							<p>
+								I'm not short i am more down to earth than other siths
+							</p>
+						</div>
+					</div>
+					<!-- 2nd column-->
+					<div class="item active">
+						<img src="pho/darth vader 2.jpg" alt="">
+						<div class="carousel-caption">
+							<h4>Father's Day</h4>
+							<p>
+							I am your father my slave children (Luke)
+							</p>
+						</div>
+					</div>
+					<!-- 3rd item-->
+					<div class="item">
+						<img src="pho/darth 5.jpg" alt="">
+						<div class="carousel-caption">
+							<h4>Boba and Vader</h4>
+							<p>
+							Big boys throw a party 1.
+							</p>
+						</div>
+					</div>
+                    <div class="item">
+						<img src="pho/darth 10.jpg" alt="">
+						<div class="carousel-caption">
+							<h4>Boba and Vader</h4>
+							<p>
+                                Big boys throw a party 2.
+							</p>
+						</div>
+					</div>
+                    <div class="item">
+						<img src="pho/darth 11.jpg" alt="">
+						<div class="carousel-caption">
+							<h4>Hoth</h4>
+							<p>
+							Hoth gets Vader ,Vader gets Luke 
+							</p>
+						</div>
+					</div>
+                    <div class="item">
+						<img src="pho/darth 12.jpg" alt="">
+						<div class="carousel-caption">
+							<h4>Selfie</h4>
+							<p>
+							Vader gets his selfie
+							</p>
+						</div>
+					</div>
+                    <div class="item">
+						<img src="pho/darth 13.jpg" alt="">
+						<div class="carousel-caption">
+							<h4>Mustafar</h4>
+							<p>
+                                Vader wins in Mustafar,Long live the dark side
+							</p>
+						</div>
+					</div>
+                    <div class="item">
+						<img src="pho/darth 14.jpg" alt="">
+						<div class="carousel-caption">
+							<h4>Hoth</h4>
+							<p>
+							Vader wins in Hoth,Long live the dark side
+							</p>
+						</div>
+					</div>
+                    <div class="item">
+						<img src="pho/darth 15.jpg" alt="">
+						<div class="carousel-caption">
+							<h4>Lord Vader</h4>
+							<p>
+'The path of the Lord Vader is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Supreme Leader is he who in the name of cherish and good will shepherds the weak through the valley of darkness for he is truly his keeper and the finder of lost children.
+							</p>
+						</div>
+					</div>
+                    <div class="item">
+						<img src="pho/darth 17.jpg" alt="images">
+						<div class="carousel-caption">
+							<h4>Boba and Vader</h4>
+							<p>
+							Big boys throw a party 3
+							</p>
+						</div>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<!-- 3 columns under carousel 
+	================================================== -->
+    <div class="centermargin">
+Last night I had a dream, When I got to Endor,<br>
+I had one hell of a rumble. <br>
+I had to beat Han Solo behind first, <br>
+For claiming to be King of the Jungle. <br>
+For this fight, I’ve wrestled with alligators, <br>
+I’ve tussled with a whale. <br>
+I done handcuffed lightning <br>
+And throw thunder in jail. <br>
+You know I’m bad. <br>
+just last week, I murdered a rock, <br>
+Injured a stone, Hospitalized a brick. <br>
+I’m so mean, I make medicine sick. <br>
+I’m so fast, man, <br>
+I can run through a hurricane and don’t get wet. <br>
+When Obi-Wan meets me, <br>
+He’ll pay his debt. <br>
+I can drown the drink of water, and kill a dead tree. <br>
+Wait till you see Me. <br>
+Written by Me | Create an image from this poem <br>
+</p></div>
+    
+	<div class="row">
+		<!-- 1 column-->
+		<div class="span-one-third">
+			<h3>Profession</h3>
+			<p>
+			I am Lord Vader the most powerful sith ever(even more powerful than that stupid palpatine)there no one in the whole galaxy in comparison to my strengths. I am very powerful very very powerful , I can kill anybody whenever i want who so ever I want cause I am the only Lord in the sith side Long live Darth Vader , Long Live the Dark Side
+			</p>
+			<p>
+				<a class="btn" href="porto.html">See My Photos</a>
+			</p>
+		</div>
+		<!-- 2nd column-->
+		<div class="span-one-third">
+			<h3>About</h3>
+			<p>
+            I am immaculately conceived knight-bastard imbued with magical powers who rules the known galaxy at the right hand of the merciless and brilliant but stupid Emperor Palpatine I. Though he maintains palaces on both Coruscant and Vjun, I spend most of his time travelling aboard Executor, the flagship of his deadly pan-galactic armada. He enjoys fixing things, listening to music, and crushing people's tracheas with his mind.
+			</p>
+			<p>
+				<a class="btn" href="aboutvader.html">More about me</a>
+			</p>
+		</div>
+		<!-- 3rd column-->
+		<div class="span-one-third">
+			<h3>Choices</h3>
+			<p>
+        I enjoy fixing things, listening to music, playing with my child luke , making fun of palpatine with my fellow stormtroopes , throwing parties with Boba , making fun of tarkin with thrawn in front of the whole board , winning planetary battles with my fellow stormtroopers , killing my fellow storm troopers cause they are big fools and crushing people's tracheas with my mind.
+			</p>
+			<p>
+				<a class="btn" href="contactvader.html">Get in touch</a>
+			</p>
+		</div>
+	</div>
+	<!-- Footer 
+================================================== -->
+	<div class="footerli">
+	</div>
+	<div class="tweetarea">
+		<div class="tweettext">
+			<div class="row">
+				<div class="span-one-third">
+					<i>Hope you liked my page , now it's time to send me a letter otherwise I WILL CHOKE YOU TO MUSTAFAR!!!  </i>
+				</div>
+				<div class="span-one-third">
+					<div class="centermargin">
+						Thank you <a href="https://devagnihotri.github.io/Hoth">Dev Agnihotri</a> for making this for me
+						
+					</div>
+				</div>
+				<div class="span-one-third center">
+					Contact me directly by<br/>Sending me a Letter<br/>
+					<span class="small"><a href="mailto:devdevagnihotri8@gmail.com">Send Letter</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer center">
+		 &copy; Copyright <a href="https://devagnihotri.github.io/Hoth">Dev Agnihotri</a> 0BBY.<br/>
+		 Long Live LORD VADER.
+	</div>
+</div>
+<!-- Ended Container-->
+<div class="footerend">
+</div>
+</body>
+</html>
